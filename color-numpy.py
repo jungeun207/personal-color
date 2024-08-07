@@ -1,6 +1,6 @@
 import numpy as np
 
-# 팔레트 리스트
+#팔레트 리스트
 spring_palette_list = []
 summer_palette_list =  []   
 autumn_palette_list = []
@@ -16,7 +16,7 @@ summer_palette_average = np.mean(summer_palette, axis=0)
 autumn_palette_average = np.mean(autumn_palette, axis=0)
 winter_palette_average = np.mean(winter_palette, axis=0)
 
-# (3, 3) 형태의 배열로 변환
+#(3, 3) 형태의 배열로 변환
 spring_palette_array = np.array([spring_palette_average])
 summer_palette_array = np.array([summer_palette_average])
 autumn_palette_array = np.array([autumn_palette_average])
