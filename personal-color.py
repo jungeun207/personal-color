@@ -27,10 +27,10 @@ palette=np.array(input_palette)
 
 input_palette = np.array(palette)
 
-spring_palette = np.array([[177.64194697, 157.50059045, 155.04722948]])
-summer_palette = np.array([[129.16025068, 120.73418611, 136.25991809]])
-autumn_palette = np.array([[149.66640364, 127.82089121, 121.45471694]])
-winter_palette = np.array([[101.06281293, 101.29546201, 117.32740631]])
+spring_palette = np.array([[]])
+summer_palette = np.array([[]])
+autumn_palette = np.array([[]])
+winter_palette = np.array([[]])
 
 palettes = [spring_palette, summer_palette, autumn_palette, winter_palette]
 closest_index = find_closest_palette(input_palette, palettes)
