@@ -35,7 +35,7 @@ def average_color(image):
     return tuple(average_color)
 
 # 사용자가 입력한 이미지 파일 경로
-image_path = r"C:\Users\user\Desktop\sample.태용.jpg"
+image_path = r"파일 경로"
 
 # 이미지의 평균 색상 계산
 input_palette = average_color(image_path)
