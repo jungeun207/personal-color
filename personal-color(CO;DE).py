@@ -44,10 +44,10 @@ input_palette = average_color(image_path)
 palette=np.array(input_palette)
 
 # 봄웜톤, 여름쿨톤, 가을웜톤, 겨울쿨톤 팔레트
-spring_palette = np.array([[177.64194697, 157.50059045, 155.04722948]])
-summer_palette = np.array([[125.10758207, 125.05007253, 145.93739257]])
-autumn_palette = np.array([[149.66640364, 127.82089121, 121.45471694]])
-winter_palette = np.array([[97.12449757, 84.89161392, 92.01856576]])
+spring_palette = np.array([[]])
+summer_palette = np.array([[]])
+autumn_palette = np.array([[]])
+winter_palette = np.array([[]])
 
 # 팔레트들 간의 거리를 계산하여 가장 가까운 퍼스널 컬러 톤을 찾음
 palettes = [spring_palette, summer_palette, autumn_palette, winter_palette]
