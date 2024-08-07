@@ -35,7 +35,7 @@ def extract_palette(image_folder):
     return palette
 
 # 이미지가 저장된 폴더 경로
-image_folder = r'C:\Users\user\Desktop\winter'
+image_folder = r'폴더 경로'
 
 # 이미지 폴더에서 평균 색상 팔레트와 해당 색상들을 추출
 palette = extract_palette(image_folder)
